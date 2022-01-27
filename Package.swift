@@ -22,7 +22,7 @@ let package = Package(
         .target(
             name: "HelperSPMPackage",
             dependencies: [],
-            resources: [.process("HelperSPMPackage.xcassets"), .process("HelperViewController.xib")]),
+            resources: [.process("HelperSPMPackage.xcassets")]),
         .testTarget(
             name: "HelperSPMPackageTests",
             dependencies: ["HelperSPMPackage"]),
